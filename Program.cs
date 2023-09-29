@@ -10,7 +10,7 @@ namespace MeuSuperBanco
     {
         static void Main(string[] args)
         {
-            MeuSuperBanco.ContaBanco ObjConta = new ContaBanco("Renato", 10000);
+            MeuSuperBanco.ContaBanco ObjConta = new ContaBanco("Renato", 100000);
             //Abrindo a conta
             Console.WriteLine($"A conta {ObjConta.numero} de {ObjConta.Dono} foi criada com saldo {ObjConta.Saldo} às {ObjConta.dateTime}");
 
